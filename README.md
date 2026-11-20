@@ -64,32 +64,6 @@ assets/
 
 ---
 
-## Modular PHP Backup & Static Regeneration
-
-All original source code and modular templates are archived in `_php_backup/` and compressed in `_php_backup.zip`.
-
-### Modular Template Components (`_php_backup/modular/`)
-- `modular/head.php` - SEO meta tags, Google tag (gtag.js), and CSS includes.
-- `modular/header.php` - Preloader, header wrapper, logo, and navigation inclusion.
-- `modular/menu.php` - Top navigation bar with active route highlighting.
-- `modular/sidebar.php` - Investor detail sidebar navigation with active sub-route tracking.
-- `modular/footer.php` - Footer copyright, anti-copy protection script, and JS bundle.
-
-### Regenerating Static HTML
-
-To update content or add pages in the future, edit the modular PHP templates and run:
-
-```powershell
-C:\xampp\php\php.exe _php_backup\generate_static.php
-```
-
-Or from terminal:
-```bash
-php _php_backup/generate_static.php
-```
-
----
-
 ## GitHub Pages Deployment
 
 1. Go to repository **Settings** on GitHub: `https://github.com/7dayscreation/kush-industries/settings/pages`

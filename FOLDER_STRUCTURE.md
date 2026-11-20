@@ -75,29 +75,12 @@ kush-industries/
 │   ├── images/                                       # Logos, banners, icons, favicons, photo assets
 │   └── js/                                           # jQuery, Bootstrap, ScrollReveal, Parallax, Map scripts
 │
-├── 📦 MODULAR PHP BACKUP & GENERATOR (_php_backup/)
-│   ├── modular/                                      # Reusable modular components
-│   │   ├── head.php                                  # Head metadata, gtag.js, CSS links
-│   │   ├── header.php                                # Preloader, header wrapper, logo, menu include
-│   │   ├── menu.php                                  # Top navigation with active states
-│   │   ├── sidebar.php                               # Investor details sidebar navigation
-│   │   └── footer.php                                # Copyright, anti-copy script, JS scripts
-│   ├── index.php                                     # Modular PHP Homepage
-│   ├── about/index.php                               # Modular PHP About Page
-│   ├── contact/index.php                             # Modular PHP Contact Page
-│   ├── disclosure-under-regulation-46-sebi/index.php # Modular PHP LODR Page
-│   ├── news/index.php                                # Modular PHP News Page
-│   ├── ...                                           # Modular PHP pages for all investor sections
-│   ├── generate_static.php                           # Single-command static generator
-│   └── original_php/                                 # Untouched original PHP files backup
-│
 ├── ⚙️ CONFIGURATION & SEO FILES
-│   ├── .gitattributes                                # Linguist vendoring for _php_backup
 │   ├── .gitignore                                    # Clean repository tracking
 │   ├── .nojekyll                                     # Prevents Jekyll processing on GitHub Pages
+│   ├── CNAME                                         # Custom domain mapping (kushindustrieslimited.com)
 │   ├── robots.txt                                    # Search crawler directives
 │   ├── sitemap.xml                                   # XML sitemap with clean URLs
 │   ├── README.md                                     # Project overview & deployment guide
-│   ├── FOLDER_STRUCTURE.md                           # Directory routing documentation
-│   └── _php_backup.zip                               # Compressed backup archive
+│   └── FOLDER_STRUCTURE.md                           # Directory routing documentation
 ```
